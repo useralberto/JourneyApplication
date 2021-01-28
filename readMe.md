@@ -40,7 +40,7 @@
 
 ````
 
-##Flujo de trabajo del proyecto
+## Flujo de trabajo del proyecto
 
 - **Scss**:
 -- Es flujo de trabajo de estilos (css) se realizará en el directorio `src / scss`  en el archivo `app.scs` es el archivo principal y padre en él se hace las importaciones de los componentes para ser compilados y minificados con webpack.
