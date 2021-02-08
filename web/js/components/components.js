@@ -1,4 +1,4 @@
-import '_welcomeMessage.js';
+import '/_welcomeMessage.js';
 import '_listGoals.js';
 import '_filterCategory.js';
 import '_modal.js';
