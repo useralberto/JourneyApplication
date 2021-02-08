@@ -1,3 +1,3 @@
-if(document.querySelector('#app')) { 
-  import('./components/components.js');
-}
+// if(document.querySelector('#app')) { 
+//   import('./components/components.js');
+// }
