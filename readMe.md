@@ -50,6 +50,8 @@
 -- El flujo de trabajo de los script se realizará en el directorio `src/js` en el archivo `app.js`  en él se importaran todos los scripts de los componentes creados e importados del archivo del directorio `src/js/components/components.js`.
 
 ## comandos a utilizar:
+- `npm install` comando para instalas los paquetes necesarios del proyecto.
+
 - `npm run watch` comando util para el proceso de desarrollo.
 
 - `npm run prod` comando para el minificado del los archivos** app.scss y app.js**
