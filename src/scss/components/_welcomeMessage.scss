@@ -1,0 +1,55 @@
+.welcomeMessage {
+  &__card {
+    border-radius: 15px;
+    border: 0px;
+    overflow: hidden;
+
+    @include media-breakpoint-up(md) { 
+      min-height: 450px;
+    }
+    .card-body, &--left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  &__title {
+    @include fontselet('Poppins', 40px, 600);
+    @include media-breakpoint-up(md) { 
+      font-size: 45px;
+    }
+    .green {
+      color: #4bc3b8;
+    }
+  }
+  &__description {
+    @include fontselet('Poppins', 16px, 400);
+    line-height: 2;
+  }
+  &__button {
+    @include fontselet('Poppins', 16px, 600);
+    border-color: #38beb1;
+    background-color: #38beb1;
+    color: #ffffff;
+    &:hover {
+      background-color: transparent;
+      color: #6c757d;
+      border-color: #38beb1;
+    }
+  }
+  &__img {
+    @include media-breakpoint-up(md) {  
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 580px;
+    }
+    
+    @media screen and (min-width: 767px) and (max-width: 1199px) { 
+      width: 380px;
+    };
+    
+  }
+}

@@ -1,0 +1,39 @@
+@mixin fontselet($typeFont, $size, $style) {
+	font-family: $typeFont;
+	font-size: $size;
+	font-weight: $style;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a, a:focus, a:hover {
+	outline: -webkit-focus-ring-color auto 0;
+	text-decoration: none !important;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+  background-color: #efefef;
+  @include fontselet('Poppins', 16px, 400);
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.42;
+	letter-spacing: normal;
+	color: #6c757d;
+}
+
+footer {
+	margin-top: auto;
+}

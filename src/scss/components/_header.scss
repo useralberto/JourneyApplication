@@ -1,0 +1,30 @@
+.navbar {
+  &__application,
+  &__journey {
+    @include fontselet('Poppins', 20px, 600);
+    text-transform: uppercase;
+  }
+  &__journey {
+    color: #5c5c5c;
+  }
+  &__application {
+    color: #8f8f8f;
+  }
+  &__login{
+    border-radius: 3rem;
+    border: 2px solid #6c757d;
+    @include fontselet('Poppins', 16px, 600);
+  }
+  &__list {
+    li {
+      a {
+        font-weight: 500;
+        color:#6c757d;
+        
+        &.active {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
