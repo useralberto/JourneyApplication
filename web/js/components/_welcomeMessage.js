@@ -1,4 +1,4 @@
-import {CreateComponent} from '_createComponent.js';
+import {CreateComponent} from './_createComponent.js';
 
 if(!localStorage.getItem('myGoals')){
   welcome();

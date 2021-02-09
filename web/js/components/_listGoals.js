@@ -1,5 +1,5 @@
-import {CreateComponent} from '_createComponent.js';
-import {GoalsElements} from '_createGoals.js';
+import {CreateComponent} from './_createComponent.js';
+import {GoalsElements} from './_createGoals.js';
 
 
 

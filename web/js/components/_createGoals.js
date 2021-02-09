@@ -85,4 +85,4 @@ class GoalsElements {
   }
 }
 
-export {GoalsElements};
+export { GoalsElements };

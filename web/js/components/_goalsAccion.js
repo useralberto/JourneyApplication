@@ -1,5 +1,5 @@
-import {myGoals} from '_listGoals.js';
-import {CreateComponent} from '_createComponent.js';
+import {myGoals} from './_listGoals.js';
+import {CreateComponent} from './_createComponent.js';
 
 try {
   document.addEventListener('click', function(event){
@@ -12,7 +12,7 @@ try {
     let indiceGoals = goalsActive.myGoals.findIndex(item => item.id === id);
 
     if(indiceGoals == -1) return console.warn('Exception in compleGoals => non-existent element');
-    goalsActive.myGoals[indiceGoals].advance = 100;
+    goalsActive.myGoals[indiceGoals].advance = 10;
     goalsActive.myGoals[indiceGoals].complete = true;
     localStorage.setItem("myGoals", JSON.stringify(goalsActive));
     myGoals(goalsActive);
