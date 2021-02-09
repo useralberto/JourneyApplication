@@ -1,4 +1,4 @@
-import {myGoals} from './_listGoals.js';
+import {myGoals} from './_listGoals';
 
 document.addEventListener('click', function(event) {
   event.preventDefault();

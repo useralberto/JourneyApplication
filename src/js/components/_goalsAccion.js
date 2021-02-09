@@ -1,5 +1,5 @@
-import {myGoals} from './_listGoals.js';
-import {CreateComponent} from './_createComponent.js';
+import {myGoals} from './_listGoals';
+import {CreateComponent} from './_createComponent';
 
 try {
   document.addEventListener('click', function(event){

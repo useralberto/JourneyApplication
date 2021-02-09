@@ -1,4 +1,4 @@
-import {GoalsElements} from './_createGoals.js';
+import {GoalsElements} from './_createGoals';
 
 
 document.addEventListener('click', function(event) {
