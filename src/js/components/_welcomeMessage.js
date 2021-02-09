@@ -29,7 +29,7 @@ function welcome() {
           </section>
         </div>
       </section>
-      <img src="/web/img/Journey/Saly-12.svg" alt="" class="img-fluid welcomeMessage__img">
+      <img src="web/img/Journey/Saly-12.svg" alt="" class="img-fluid welcomeMessage__img">
     </div>
   `;
   let newComponente = createComponent.componentStructure({
